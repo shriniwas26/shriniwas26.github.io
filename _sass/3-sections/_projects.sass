@@ -25,16 +25,18 @@
       +display(flex)
       +align-items(center)
       +justify-content(space-around)
+      +position(absolute, 0px 0px null 0px)
       strong
         display: block
         padding: 20px
         color: white
         line-height: 1.2
+
         font:
           size: 24px
           weight: 300
-    &:hover .project-overlay
-      +position(absolute, 0px 0px null 0px)
+    // &:hover .project-overlay
+    //   +position(absolute, 0px 0px null 0px)
 
 @media (max-width: 768px)
   .project-container
