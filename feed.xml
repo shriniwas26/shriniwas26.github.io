@@ -1,99 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" hreflang="en" /><updated>2024-07-22T09:43:43+00:00</updated><id>/feed.xml</id><title type="html">Shriniwas Sharma</title><subtitle>Portfolio website/blog for all things data.
-</subtitle><author><name>Shriniwas Sharma</name><email>shriniwas_sharma@pm.me</email></author><entry><title type="html">Popular Git Commands</title><link href="/blog/popular-git-commands/" rel="alternate" type="text/html" title="Popular Git Commands" /><published>2023-01-23T00:00:00+00:00</published><updated>2024-07-22T09:42:49+00:00</updated><id>/blog/popular-git-commands</id><content type="html" xml:base="/blog/popular-git-commands/"><![CDATA[<ul id="markdown-toc">
-  <li><a href="#introduction" id="markdown-toc-introduction">Introduction</a></li>
-</ul>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" hreflang="en" /><updated>2024-07-22T10:45:00+00:00</updated><id>/feed.xml</id><title type="html">Shriniwas Sharma</title><subtitle>Portfolio website/blog for all things data.
+</subtitle><author><name>Shriniwas Sharma</name><email>shriniwas_sharma@pm.me</email></author><entry><title type="html">Introduction</title><link href="/blog/chi-square-test/" rel="alternate" type="text/html" title="Introduction" /><published>2022-07-01T00:00:00+00:00</published><updated>2024-07-22T10:44:09+00:00</updated><id>/blog/chi-square-test</id><content type="html" xml:base="/blog/chi-square-test/"><![CDATA[<hr />
 
-<h2 id="introduction">Introduction</h2>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>]]></content><author><name>Shriniwas Sharma</name><email>shriniwas_sharma@pm.me</email></author><category term="Tips and Tricks" /><category term="Git" /><category term="GitHub" /><category term="Version Control" /><category term="Code" /><summary type="html"><![CDATA[This blog briefly goes through some essential git commands that may prove handy.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/assets/img/blog/github-images/git-cover-image.jpg" /><media:content medium="image" url="/assets/img/blog/github-images/git-cover-image.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Fruit Classification using CNN (Keras)</title><link href="/blog/fruit-classification-using-CNN/" rel="alternate" type="text/html" title="Fruit Classification using CNN (Keras)" /><published>2022-11-01T00:00:00+00:00</published><updated>2024-07-22T09:42:49+00:00</updated><id>/blog/fruit-classification-using-CNN</id><content type="html" xml:base="/blog/fruit-classification-using-CNN/"><![CDATA[<p><a href="https://github.com/shriniwas-ds/enhancing-targeting-accuracy/blob/main/Enhancing%20Targeting%20Accuracy%20using%20ML.ipynb"><img src="https://img.shields.io/badge/Jupyter-Open_Notebook-blue?logo=Jupyter" alt="" /></a>
-<a href="https://github.com/shriniwas-ds/enhancing-targeting-accuracy"><img src="https://img.shields.io/badge/GitHub-View_in_GitHub-blue?logo=GitHub" alt="" /></a></p>
-
-<ul id="markdown-toc">
-  <li><a href="#project-overview-and-results" id="markdown-toc-project-overview-and-results">Project Overview and Results</a>    <ul>
-      <li><a href="#context" id="markdown-toc-context">Context</a></li>
-      <li><a href="#actions" id="markdown-toc-actions">Actions</a></li>
-      <li><a href="#results" id="markdown-toc-results">Results</a></li>
-    </ul>
-  </li>
-  <li><a href="#data-overview" id="markdown-toc-data-overview">Data Overview</a></li>
-  <li><a href="#pipeline-overview" id="markdown-toc-pipeline-overview">Pipeline Overview</a></li>
-</ul>
-
-<h2 id="project-overview-and-results">Project Overview and Results</h2>
-<h3 id="context">Context</h3>
-
-<h3 id="actions">Actions</h3>
-
-<h3 id="results">Results</h3>
-
-<h2 id="data-overview">Data Overview</h2>
-
-<h2 id="pipeline-overview">Pipeline Overview</h2>]]></content><author><name>Shriniwas Sharma</name><email>shriniwas_sharma@pm.me</email></author><category term="Deep Learning" /><summary type="html"><![CDATA[Under construction.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/assets/img/blog/fruit-class-cnn/cnn-fruit-classification-title-img.png" /><media:content medium="image" url="/assets/img/blog/fruit-class-cnn/cnn-fruit-classification-title-img.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Assessing Campaign Performance Using Chi-Square Test For Independence</title><link href="/blog/chi-square-test/" rel="alternate" type="text/html" title="Assessing Campaign Performance Using Chi-Square Test For Independence" /><published>2022-07-01T00:00:00+00:00</published><updated>2024-07-22T09:42:49+00:00</updated><id>/blog/chi-square-test</id><content type="html" xml:base="/blog/chi-square-test/"><![CDATA[<p>In this project, we apply Chi-Square Test For Insitemap: truedependence (a Hypothesis Test) to assess the performance of two types of mailers that were sent out to promote a new service!</p>
+<p><br /></p>
 
 <hr />
 
-<p><strong>Some context:</strong> Earlier in the year, our client, a grocery retailer, ran a campaign to promote their new “Delivery Club” - an initiative that costs a customer $100 per year for membership, but offers free grocery deliveries rather than the normal cost of $10 per delivery.</p>
-
-<p>For the campaign promoting the club, customers were put randomly into three groups - the first group received a “low quality, low cost mailer”, the second group received a “high quality, high cost mailer”, and the third group were a control group, receiving no mailer at all.</p>
-
-<p>The client knows that customers who were contacted, signed up for the Delivery Club at a far higher rate than the control group, but now want to understand if there is a significant difference in signup rate between the cheap mailer and the expensive mailer.  This will allow them to make more informed decisions in the future, with the overall aim of optimising campaign ROI!
-<br /></p>
-
 <hr />
 
-<h3 id="actions">Actions</h3>
-
-<p>For this test, as it is focused on comparing the <em>rates</em> of two groups - we applied the Chi-Square Test For Independence.</p>
-
-<p><strong>Full details of this test and the complete code for this project can be found in the Jupyter Notebook here: <a href="https://github.com/shriniwas-ds/chi-square-test">Chi Square Test Notebook</a></strong></p>
-
-<p><strong>Note:</strong> Another option when comparing “rates” is a test known as the <em>Z-Test For Proportions</em>.  While, we could absolutely use this test here, we have chosen the Chi-Square Test For Independence because:</p>
-
-<ul>
-  <li>The resulting test statistic for both tests will be the same</li>
-  <li>The Chi-Square Test can be represented using 2x2 tables of data - meaning it can be easier to explain to stakeholders</li>
-  <li>The Chi-Square Test can extend out to more than 2 groups - meaning the client can have one consistent approach to measuring signficance</li>
-</ul>
-
-<p>From the <em>campaign_data</em> table in the client database, we isolated customers that received “Mailer 1” (low cost) and “Mailer 2” (high cost) for this campaign, and excluded customers who were in the control group.</p>
-
-<p>We set out our hypotheses and Acceptance Criteria for the test, as follows:</p>
-
-<ul>
-  <li><strong>Null Hypothesis:</strong> There is no relationship between mailer type and signup rate. They are independent.</li>
-  <li><strong>Alternate Hypothesis:</strong> There is a relationship between mailer type and signup rate. They are not independent.</li>
-  <li><strong>Acceptance Criteria:</strong> 0.05</li>
-</ul>
-
-<p>As a requirement of the Chi-Square Test For Independence, we aggregated this data down to a 2x2 matrix for <em>signup_flag</em> by <em>mailer_type</em> and fed this into the algorithm (using the <em>scipy</em> library) to calculate the Chi-Square Statistic, p-value, Degrees of Freedom, and expected values.
-<br /></p>
-
-<hr />
-
-<h3 id="results--discussion">Results &amp; Discussion</h3>
-
-<p>Based upon our observed values, we can give this all some context with the sign-up rate of each group.  We get:</p>
-
-<ul>
-  <li>Mailer 1 (Low Cost): <strong>32.8%</strong> signup rate</li>
-  <li>Mailer 2 (High Cost): <strong>37.8%</strong> signup rate</li>
-</ul>
-
-<p>However, the Chi-Square Test gives us the following statistics:</p>
-
-<ul>
-  <li>Chi-Square Statistic: <strong>1.94</strong></li>
-  <li>p-value: <strong>0.16</strong></li>
-</ul>
-
-<p>The Critical Value for our specified Acceptance Criteria of 0.05 is <strong>3.84</strong></p>
-
-<p>Based upon these statistics, we <strong>retain the null hypothesis, and conclude that there is no relationship between mailer type and signup rate.</strong></p>
-
-<p>In other words - while we saw that the higher cost Mailer 2 had a higher signup rate (37.8%) than the lower cost Mailer 1 (32.8%) it appears that this difference is not significant, at least at our Acceptance Criteria of 0.05.</p>
-
-<p>Without running this Hypothesis Test, the client may have concluded that they should always look to go with higher cost mailers - and from what we’ve seen in this test, that may not be a great decision.  It would result in them spending more, but not <em>necessarily</em> gaining any extra revenue as a result</p>
-
-<p>Our results here also do not say that there <em>definitely isn’t a difference between the two mailers</em> - we are only advising that we should not make any rigid conclusions <em>at this point</em>.</p>
-
-<p>Running more A/B Tests like this, gathering more data, and then re-running this test may provide us, and the client more insight!
-<br /></p>]]></content><author><name>Shriniwas Sharma</name><email>shriniwas_sharma@pm.me</email></author><category term="Data Science" /><category term="AB Testing" /><category term="Hypothesis Testing" /><category term="Chi-Square" /><category term="Python" /><summary type="html"><![CDATA[In this project, we apply Chi-Square Test For Independence (a Hypothesis Test) to assess the performance of two types of mailers that were sent out to promote a new service!]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/assets/img/blog/chi-square-test/ab-testing-title-img.png" /><media:content medium="image" url="/assets/img/blog/chi-square-test/ab-testing-title-img.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+<h3 id="results--discussion">Results &amp; Discussion</h3>]]></content><author><name>Shriniwas Sharma</name><email>shriniwas_sharma@pm.me</email></author><category term="Data Science" /><category term="Python" /><category term="Data Visualization" /><category term="Plotly" /><category term="Dash" /><category term="COVID-19" /><summary type="html"><![CDATA[In this project, I have visualized the COVID-19 data in the Netherlands using Plotly/Dash. The data is fetched from the RIVM website. The data is updated daily and the visualization is interactive.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/assets/img/blog/covid-19-visualization-plotly/covid-19.png" /><media:content medium="image" url="/assets/img/blog/covid-19-visualization-plotly/covid-19.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
