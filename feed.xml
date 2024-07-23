@@ -1,11 +1,38 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" hreflang="en" /><updated>2024-07-22T10:58:10+00:00</updated><id>/feed.xml</id><title type="html">Shriniwas Sharma</title><subtitle>Portfolio website/blog for all things data.
-</subtitle><author><name>Shriniwas Sharma</name><email>shriniwas_sharma@pm.me</email></author><entry><title type="html">COVID-19 Data Visualization in the Netherlands using Plotly/Dash</title><link href="/blog/chi-square-test/" rel="alternate" type="text/html" title="COVID-19 Data Visualization in the Netherlands using Plotly/Dash" /><published>2022-07-01T00:00:00+00:00</published><updated>2024-07-22T10:57:18+00:00</updated><id>/blog/chi-square-test</id><content type="html" xml:base="/blog/chi-square-test/"><![CDATA[<p>This was a project I did to use the dashboarding skills I learned (Plotly/Dash) to visualize the COVID-19 data in the Netherlands.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" hreflang="en" /><updated>2024-07-23T15:47:50+00:00</updated><id>/feed.xml</id><title type="html">Shriniwas Sharma</title><subtitle>Portfolio website/blog for all things data.
+</subtitle><author><name>Shriniwas Sharma</name><email>shriniwas_sharma@pm.me</email></author><entry><title type="html">COVID-19 Data Visualization in the Netherlands using Plotly/Dash</title><link href="/blog/covid-19-visualization/" rel="alternate" type="text/html" title="COVID-19 Data Visualization in the Netherlands using Plotly/Dash" /><published>2022-07-01T00:00:00+00:00</published><updated>2024-07-23T15:46:59+00:00</updated><id>/blog/covid-19-visualization</id><content type="html" xml:base="/blog/covid-19-visualization/"><![CDATA[<p>This was a project I did to use the dashboarding skills I learned (Plotly/Dash) to visualize the COVID-19 data in the Netherlands.</p>
 
 <h2 id="data-source">Data Source</h2>
-<p>The data is fetched from the RIVM website. The data is fetched using the <code class="language-plaintext highlighter-rouge">requests</code> library and is updated daily.</p>
+<p>The data is fetched from the RIVM website. The data is fetched using the <code class="language-plaintext highlighter-rouge">requests</code> library and is updated daily. It is a simple columnar dataset with the following columns:</p>
+<ul>
+  <li>City/Municipality name (Gemeente in Dutch)</li>
+  <li>Province name (Provincie in Dutch)</li>
+  <li>Date</li>
+  <li>Number of cases reported till date</li>
+  <li>Number of hospital admissions till date</li>
+  <li>Number of deaths till date</li>
+</ul>
+
+<h2 id="data-cleaning-and-preprocessing">Data Cleaning and Preprocessing</h2>
+<p>To remove data points that are not present in the population database, I performed an inner join between the COVID-19 dataset and the population dataset using the city/municipality code as the key.</p>
+
+<h2 id="calculating-per-population-metrics">Calculating per population metrics</h2>
+<p>The data is available at the city/municipality level. To make the data more meaningful, I calculated the number of cases, hospital admissions, and deaths per 100,000 population. The population data is fetched from the CBS website.</p>
+
+<h2 id="dashboard">Dashboard</h2>
+<p>The dashboard is built using Plotly/Dash. The dashboard has the following components:</p>
+<ul>
+  <li>A dropdown menu to multi-select the cities/municipalities to be displayed</li>
+  <li>A dropdown menu to select the type of data to be displayed (cases, hospital admissions, deaths)</li>
+  <li>Toggle button for daily or cumulative data</li>
+  <li>Toggle button to display the data in absolute numbers or per 100,000 population</li>
+</ul>
 
 <h2 id="visualization">Visualization</h2>
 <p>The visualization is interactive and the user can select the data to be displayed using the dropdown menu. The data is displayed in the form of a line chart and a bar chart.</p>
 
 <h2 id="code">Code</h2>
-<p>The code for this project can be found on my GitHub repository <a href="https://github.com/shriniwas26/COVID-19-Dashboard-for-the-Netherlands">here</a>.</p>]]></content><author><name>Shriniwas Sharma</name><email>shriniwas_sharma@pm.me</email></author><category term="Data Science" /><category term="Python" /><category term="Data Visualization" /><category term="Plotly" /><category term="Dash" /><category term="COVID-19" /><summary type="html"><![CDATA[In this project, I have visualized the COVID-19 data in the Netherlands using Plotly/Dash. The data is fetched from the RIVM website. The data is updated daily and the visualization is interactive.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/assets/img/blog/covid-19-visualization-plotly/covid-19.png" /><media:content medium="image" url="/assets/img/blog/covid-19-visualization-plotly/covid-19.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+<p>The code for this project can be found on my GitHub repository <a href="https://github.com/shriniwas26/COVID-19-Dashboard-for-the-Netherlands">here</a>.</p>
+
+<h2 id="screenshot">Screenshot</h2>
+
+<h2 id="conclusion">Conclusion</h2>]]></content><author><name>Shriniwas Sharma</name><email>shriniwas_sharma@pm.me</email></author><category term="Data Science" /><category term="Python" /><category term="Data Visualization" /><category term="Plotly" /><category term="Dash" /><category term="COVID-19" /><summary type="html"><![CDATA[In this project, I have visualized the COVID-19 data in the Netherlands using Plotly/Dash. The data is fetched from the RIVM website. The data is updated daily and the visualization is interactive.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/assets/img/blog/covid-19-visualization-plotly/covid-19.png" /><media:content medium="image" url="/assets/img/blog/covid-19-visualization-plotly/covid-19.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
