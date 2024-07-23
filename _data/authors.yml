@@ -1,0 +1,30 @@
+# The primary author of this blog.
+# Must be the same as `author` in `_config.yml`.
+# Change `author1` to your shortname.
+author1:
+  name:              Shriniwas Sharma
+  email:             shriniwas_sharma@pm.me
+
+  # Used at the bottom of each page and at the top of the `about` layout
+  # Markdown enabled, can use multiple paragraphs (enabled by `|`)
+  about: |
+    I'm Shriniwas, an Engineer and Data Scientist based in Eindhoven. With a strong background in computer science, data analysis and software development, I enjoy creating innovative solutions to complex problems. I have experience in various programming languages and tools, including Python, R, and JavaScript, and I love working on projects that aim to make a difference. In my free time, I enjoy playing the guitar, listening to music, and watching documentaries. Connect with me on my socials below!
+
+  # This photo will be used in the about section
+  # picture:
+  #   path:            /assets/img/IMG_1663.png
+    # srcset is optional, but can be used to provide higher res versions for retina displays
+    # srcset:
+      # 1x:            https://placehold.it/128x128
+      # 2x:            https://placehold.it/256x256
+
+  # Social media icons in sidebar
+  # Comment/uncommet to show/hide
+  # Rearrange to change the order in which they appear
+  social:
+    email:            shriniwas_sharma@pm.me
+    linkedin:         shriniwas26
+    github:           shriniwas26
+    twitter:          shriniwas172
+
+# Another author (optional)
