@@ -45,6 +45,11 @@ The code for this project can be found on my GitHub repository [here](https://gi
 
 ## Screenshot
 
+![alt text](/assets/img/Dashboard_1.png)
+
 ## Conclusion
+In conclusion, developing a dashboard with Plotly for visualizing COVID-19 data in the Netherlands has been a valuable project. The interactive nature of the dashboard allows users to explore the data in a meaningful way, selecting specific cities/municipalities and different types of data to display. The inclusion of per population metrics provides a more accurate representation of the impact of COVID-19.
+
+The code for this project is available on my GitHub repository, allowing others to learn from and contribute to the project.
 
 
