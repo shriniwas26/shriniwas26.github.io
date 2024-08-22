@@ -12,6 +12,8 @@ hide_last_modified: true
 # COVID-19 Data Visualization in the Netherlands using D3.js and React.js
 This was a project I did to use the dashboarding skills I learned D3.js to visualize the COVID-19 data in the Netherlands. In addition, it helped me learn React.js and how to integrate D3.js with React.js.
 
+The dashboard can be accessed [here](https://covid-data-nl.netlify.app/).
+
 ## Data Source
 The data is fetched from the RIVM website. The data is fetched using the `requests` library and is updated to the latest data. It is a simple columnar dataset with the following columns:
 - City/Municipality name (Gemeente in Dutch)
@@ -44,7 +46,7 @@ The code for this project can be found on my GitHub repository [here](https://gi
 
 ## Deployment
 
-The dashboard is deployed on Netlify, and can be accessed [here](https://covid-data-nl.netlify.app/). The choice of Netlify was made due to its ease of deployment and integration with GitHub, and the fact that it is a static site, and Netlify is free to use for small projects.
+The dashboard is deployed on Netlify, using built in Nerlify features for continuous deployment. The choice of Netlify was made due to its ease of deployment and integration with GitHub, and the fact that it is a static site, and Netlify is free to use for small projects.
 
 ## Screenshot
 

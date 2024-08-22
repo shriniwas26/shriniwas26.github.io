@@ -12,6 +12,9 @@ hide_last_modified: true
 # COVID-19 Data Visualization in the Netherlands using Plotly/Dash
 This was a project I did to use the dashboarding skills I learned (Plotly/Dash) to visualize the COVID-19 data in the Netherlands.
 
+
+The dadashboard can be accessed [here](https://covid-dashboard-nl-2ad60227cfd2.herokuapp.com/).
+
 ## Data Source
 The data is fetched from the RIVM website. The data is fetched using the `requests` library and is updated daily. It is a simple columnar dataset with the following columns:
 - City/Municipality name (Gemeente in Dutch)
