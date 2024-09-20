@@ -20,7 +20,7 @@ no_language_icons: false
 no_skill_icons: false
 buttons:
   print: true
-  pdf: /assets/Shriniwas_ml_engineer_2024_08_22.pdf
+  pdf: /assets/Shriniwas_CV.pdf
   # For the vCard you can either provide a link to a .vcf file in assets (see `pdf` above),
   # or use `h2vx.com` to generate a vCard on the fly based on the structured data of the resume page.
   # The later requires `hydejack.no_structured_data: false` and only works once the site is deployed to a public URL.
