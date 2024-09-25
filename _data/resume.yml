@@ -21,7 +21,7 @@ work:
     position: "Senior Software Engineer"
     website: "https://maaind.com"
     startDate: "2022-11-01"
-    endDate: "2004-08-30"
+    endDate: "2024-08-30"
     location: "Eindhoven, The Netherlands"
     highlights:
       - Spearheaded the construction of a CI/CD pipeline, integrating static code analysis and vulnerability scanners to enhance code quality and security.
