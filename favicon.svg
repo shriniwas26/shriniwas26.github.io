@@ -1,0 +1,21 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="16" cy="16" r="15" fill="#4F46E5" stroke="#3730A3" stroke-width="2"/>
+
+  <!-- Laptop base -->
+  <rect x="6" y="18" width="20" height="2" rx="1" fill="white"/>
+
+  <!-- Laptop screen -->
+  <rect x="8" y="10" width="16" height="10" rx="1" fill="white" stroke="#4F46E5" stroke-width="1"/>
+
+  <!-- Screen content (code lines) -->
+  <line x1="10" y1="12" x2="22" y2="12" stroke="#4F46E5" stroke-width="1"/>
+  <line x1="10" y1="14" x2="18" y2="14" stroke="#4F46E5" stroke-width="1"/>
+  <line x1="10" y1="16" x2="20" y2="16" stroke="#4F46E5" stroke-width="1"/>
+
+  <!-- Laptop stand -->
+  <rect x="14" y="20" width="4" height="2" fill="white"/>
+
+  <!-- Glow effect -->
+  <circle cx="16" cy="16" r="12" fill="none" stroke="rgba(255,255,255,0.2)" stroke-width="1"/>
+</svg>
